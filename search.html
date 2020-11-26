@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/search.css">
+</head>
+<body>
+    <!-- 头部 -->
+    <header>
+        <img src="./image/index/logo.jpg" alt="">
+        <img src="./image/index/xiazai.jpg" alt="">
+        <img src="./image/index/my.jpg" alt=""> 
+    </header>
+
+    <div class="header">
+        <img src="./image/index/banner.png" alt="">
+        <div class="search">
+            <span><img src="./image/index/seach.jpg" alt=""></span>输入小区或商圈名开始找房咯！
+        </div>
+    </div>
+
+    <nav>
+        <ul>
+            <li>
+                <img src="./image/index/index_03.png" alt="">
+                <p>二手房</p>
+            </li>
+            <li>
+                <img src="./image/index/index_05.png" alt="">
+                <p>新房</p>
+            </li>
+            <li>
+                <img src="./image/index/index_07.png" alt="">
+                <p>租房</p>
+            </li>
+            <li>
+                <img src="./image/index/index_09.png" alt="">
+                <p>卖房</p>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="banner">
+        <img src="./image/index/banner2.png" alt="">
+    </div>
+
+    <div class="hothome">
+        <p>热门房源</p>
+        <p>Hot house</p>
+    </div>
+    <!-- 热门房源 -->
+    <ul class="goods">
+        <li>
+            <div class="g-img"><img src="./image/index/img1.jpg" alt=""></div>
+            <div class="g-show">
+                <p class="g1">文化部中间层  一层带阁楼</p>
+                <p class="g2">2室1厅96㎡南北 <span>1105万</span></p>
+                <p class="g3">红庙北里 <span>14268元/平</span></p>
+                <p class="g4"><span>学区房</span><span>独家</span></p>
+            </div>
+        </li>
+        <li>
+            <div class="g-img"><img src="./image/index/img2.png" alt=""></div>
+            <div class="g-show">
+                <p class="g1">光大水墨  精装复式 稀缺</p>
+                <p class="g2">2室1厅96㎡南北 <span>280万</span></p>
+                <p class="g3">光大水墨 <span>14268元/平</span></p>
+                <p class="g4"><span>学区房</span><span>独家</span><span>满五唯一</span></p>
+            </div>
+        </li>
+        <li>
+            <div class="g-img"><img src="./image/index/img3.png" alt=""></div>
+            <div class="g-show">
+                <p class="g1">南北通透两居  精装修 无</p>
+                <p class="g2">2室1厅96㎡南北 <span>320万</span></p>
+                <p class="g3">北京新天地 <span>14268元/平</span></p>
+                <p class="g4"><span>地铁房</span><span>独家</span></p>
+            </div>
+        </li>
+    </ul>
+
+    <div class="hot-look">
+        <div class="l-top">
+            <p>热门关注</p>
+            <p>友情链接</p>
+        </div>
+        <ul class="l-bottom">
+            <li>
+                <p>北京二手房</p>
+                <p>北京二手房价</p>
+                <p>海淀日租房</p>
+                <p>朝阳新房</p>
+            </li>
+            <li>
+                <p>北京二手房</p>
+                <p>北京二手房价</p>
+                <p>海淀日租房</p>
+                <p>朝阳新房</p>
+            </li>
+        </ul>
+    </div>
+<!-- 底部 -->
+<footer>
+    <a>北京找房无忧网 > 首页</a>
+    <div class="icon">
+        <div class="left">
+            <img src="./image/index/apple.png" alt="">
+            <div class="userbox">
+                <p>iPhone</p>
+                <p>客户端</p>
+            </div>
+        </div>
+        <div class="left">
+            <img src="./image/index/android.png" alt="">
+            <div class="userbox">
+                <p>Android</p>
+                <p>客户端</p>
+            </div>
+        </div>
+    </div>
+    <p>北京找房无忧房地产经纪有限公司</p>
+    <p>网络经营许可证京ICP备20160812号-12</p>
+</footer>
+<!-- 广告 -->
+<div class="ad">
+    <span class="ad1">
+        X
+    </span>
+    <div class="ad2">
+        <img src="./image/index/download.png" alt="">
+        <div class="nopro">
+            <p>找房无忧</p>
+            <p>市场行情，一手掌握！</p>
+        </div>
+    </div>
+    <div class="ad3">
+        免费下载
+    </div>
+</div>
+</body>
+<script src="./js/jquery-3.5.1.min.js"></script>
+<script>
+    function setRem(){
+    var win = document.documentElement.clientWidth || document.body.clientWidth;
+    var uiw = 320;
+    document.documentElement.style.fontSize = (win/uiw)*1+'px'
+  }
+  setRem();
+  window.onresize = setRem;
+
+
+  $('.ad1').on('click',function(){
+     $('.ad').remove(); 
+  });
+</script>
+</html>

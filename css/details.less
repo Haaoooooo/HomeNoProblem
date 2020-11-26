@@ -1,0 +1,355 @@
+.auto{
+    width: 100%;
+    height: 185rem;
+    img{
+        width: 320rem;
+        height: 185rem;
+    }
+}
+//房子价格
+.home-price{
+    height: 185rem;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-bottom: 1rem solid #e5e5e5;
+    p{
+        width: 88%;
+        margin: 0 auto;
+    }
+    .pr1{
+        font-size: 18rem;
+        font-weight: bolder;
+    }
+    .pr2{
+        font-size: 14rem;
+        span{
+            color: #db4c3f;
+            font-weight: bolder;
+        }
+        span:last-child{
+            float: right;
+        }
+        img{
+            width: 13rem;
+            height: 19rem;
+        }
+    }   
+    .pr3{
+        font-size: 12rem;
+        color: #b0b0b7;
+    } 
+    .pr4{
+        overflow: hidden;
+        span{
+            float: left;
+            padding: 8rem 5rem;
+            background-color: #dee9f0;
+            color: #849aae;
+            margin-right: 12rem;
+            font-size: 12rem;
+        }
+    }
+}
+
+//房子详情
+article{
+    width: 100%;
+    background-color: white;
+    margin-top: 14rem;
+    margin-bottom: 10rem;
+    border-bottom: 1rem solid #e5e5e5;
+    border-top: 1rem solid #e5e5e5;
+    ul{
+        width: 88%;
+        margin: 0 auto;
+        li{
+            height: 50rem;
+            box-sizing: border-box;
+            border-bottom: 1rem solid #e5e5e5;
+            display: flex;
+            align-items: center;
+            p{
+                font-size: 12rem;
+                width: 50%;
+            }
+        }
+        li:nth-child( n + 6 ){
+            p{
+                width: 100%;
+            }
+        }
+        li:last-child{
+            color: #999999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            font-size: 12rem;
+        }
+    }
+}
+
+//房源特色
+.feature{
+    border-bottom: 1rem solid #e5e5e5;
+    border-top: 1rem solid #e5e5e5;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 10rem;
+    .f-tit{
+        height: 55rem;
+        line-height: 55rem;
+        width: 88%;
+        margin: 0 auto;
+        font-weight: bolder;
+        font-size: 16rem;
+        color: #ff9326;
+        border-bottom: 1rem solid #e5e5e5;
+    }
+    .f-content{
+        width: 88%;
+        margin: 0 auto;
+        border-bottom: 1rem solid #e5e5e5;
+        line-height: 20rem;
+        padding: 20rem 0rem;
+        font-size: 12rem;
+    }
+    .f-more{
+        color: #999999;
+        font-size: 12rem;
+        height: 50rem;
+        line-height: 50rem;
+        text-align: center;
+        width: 88%;
+        margin: 0 auto;
+    }
+}
+
+//户型分间
+.type{
+    border-bottom: 1rem solid #e5e5e5;
+    border-top: 1rem solid #e5e5e5;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 10rem;
+    .t-tit{
+        height: 55rem;
+        line-height: 55rem;
+        width: 88%;
+        margin: 0 auto;
+        font-weight: bolder;
+        font-size: 16rem;
+        color: #ff9326;
+        border-bottom: 1rem solid #e5e5e5;
+    }
+    ul{
+        width: 88%;
+        margin: 0 auto;
+        li{
+            height: 120rem;
+            border-bottom: 1rem solid #ff9326;
+            display: flex;
+            align-items: center;
+            img{
+                width: 71rem;
+                height: 71rem;
+                margin-right: 10rem;
+            }
+            .t-text{
+                .t-p1{
+                    font-size: 14rem;
+                    font-weight: bolder;
+                    margin-bottom: 5rem;
+                }
+                .t-p2{
+                    font-size: 12rem;
+                    margin-bottom: 8rem;
+                }
+                .t-p3{
+                    overflow: hidden;
+                    span{
+                        float: left;
+                        padding: 8rem 5rem;
+                        background-color: #dee9f0;
+                        color: #849aae;
+                        margin-right: 12rem;
+                        font-size: 12rem;
+                    }
+                }
+            }
+        }
+        li:last-child{
+            border: none;
+        }
+    }
+}
+
+// 学校
+.school{
+    border-bottom: 1rem solid #e5e5e5;
+    border-top: 1rem solid #e5e5e5;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 10rem;
+    li{
+        height: 50rem;
+        line-height: 50rem;
+        width: 88%;
+        margin: 0 auto;
+        border-bottom: 1rem solid #e5e5e5;
+        font-size: 12rem;
+        span{
+            color: #999999;
+        }
+    }
+    li:first-child{
+        font-size: 18rem;
+        font-weight: bold;
+    }
+    li:last-child{
+        color: #999999;
+        border: none;
+        text-align: center;
+    }
+}
+
+// 位置
+.gps{
+    border-bottom: 1rem solid #e5e5e5;
+    border-top: 1rem solid #e5e5e5;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 10rem;
+    .g-tit{
+        font-size: 18rem;
+        font-weight: bolder;
+        height: 50rem;
+        line-height: 50rem;
+        width: 88%;
+        margin: 0 auto;
+        border-bottom: 1rem solid #e5e5e5;
+    }
+    .map{
+        height: 200rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        #container {
+            overflow: hidden;
+            width: 280rem;
+            height: 155rem;
+            margin: 0;
+            font-family: "微软雅黑";
+        }
+    }
+}
+//推荐房源
+.recommend{
+    border-top: 1rem solid #e5e5e5;
+    border-bottom: 1rem solid #e5e5e5;
+    background-color: white;
+    width: 100%;
+    .r-tit{
+        font-size: 18rem;
+        font-weight: bolder;
+        height: 50rem;
+        line-height: 50rem;
+        width: 88%;
+        margin: 0 auto;
+        border-bottom: 1rem solid #e5e5e5;
+    }
+    ul{
+        border-bottom: 1rem solid #e5e5e5;  
+    }
+    .r-more{
+        height: 50rem;
+        line-height: 50rem;
+        font-size: 12rem;
+        text-align: center;
+        color: #999999;
+    }
+    li{
+        width: 88%;
+        height: 170rem;
+        border-bottom: 1rem solid #e5e5e5;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .wrap{
+            display: flex;
+            align-items: center;
+            .g-img{
+                width: 80rem;
+                height: 80rem;
+                img{
+                    width: 80rem;
+                    height: 80rem;
+                }
+            }
+            .g-show{
+                margin-left: 10rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                height: 120rem;
+                .g1{
+                    width: 200rem;
+                    font-size: 20rem;
+                    font-weight: bold;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                }
+                .g2{
+                    overflow: hidden;
+                    color: black;
+                    font-size: 12rem;
+                    span{
+                        float: right;
+                        color: #ff8a00;
+                        font-weight: bold;
+                        margin-right: 10rem;
+                    }
+                }
+                .g3{
+                    color: #8b8b8b;
+                    overflow: hidden;
+                    font-size: 12rem;
+                        span{
+                            float: right;
+                            margin-right: 10rem;
+                        }
+                }
+                .g4{
+                    color: #849aae;
+                    margin-top: 5rem;
+                    font-size: 12rem;
+                    span{
+                        padding: 5rem 3rem;
+                        background-color: #f4f7f9;
+                        display: inline-block;
+                        margin-right: 5rem;
+                    }
+                }
+            }
+        }
+        .because{
+            width: 295rem;
+            height: 35rem;
+            line-height: 35rem;
+            background-color: #f2f2f2;
+            font-size: 12rem;
+            padding-left: 10rem;
+            position: relative;
+            left: 7rem;
+        }
+    }
+    li:last-child{
+        border: none;
+    }
+}
+
