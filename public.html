@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/public.css">
+</head>
+<body>
+    <!-- 头部 -->
+    <header>
+        <img src="./image/index/logo.jpg" alt="">
+        <img src="./image/index/xiazai.jpg" alt="">
+        <img src="./image/index/my.jpg" alt=""> 
+    </header>
+<!-- 底部 -->
+<footer>
+    <a>北京找房无忧网 > 首页</a>
+    <div class="icon">
+        <div class="left">
+            <img src="./image/index/apple.png" alt="">
+            <div class="userbox">
+                <p>iPhone</p>
+                <p>客户端</p>
+            </div>
+        </div>
+        <div class="left">
+            <img src="./image/index/android.png" alt="">
+            <div class="userbox">
+                <p>Android</p>
+                <p>客户端</p>
+            </div>
+        </div>
+    </div>
+    <p>北京找房无忧房地产经纪有限公司</p>
+    <p>网络经营许可证京ICP备20160812号-12</p>
+</footer>
+</body>
+<script>
+    function setRem(){
+    var win = document.documentElement.clientWidth || document.body.clientWidth;
+    var uiw = 320;
+    document.documentElement.style.fontSize = (win/uiw)*1+'px'
+  }
+  setRem();
+  window.onresize = setRem;
+</script>
+</html>

@@ -1,0 +1,248 @@
+.header {
+  width: 100%;
+  position: relative;
+  background: #F2F7F3;
+  height: 200rem;
+}
+.header img {
+  width: 100%;
+  height: 200rem;
+}
+.header .search {
+  height: 25rem;
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  position: absolute;
+  bottom: 10rem;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5rem;
+  overflow: hidden;
+  font-size: 12rem;
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+.header .search span {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  display: block;
+  width: 15rem;
+  height: 15rem;
+}
+.header .search span img {
+  width: 15rem;
+  height: 15rem;
+}
+nav {
+  width: 100%;
+  height: 120rem;
+  background-color: #ff8a00;
+}
+nav ul {
+  width: 100%;
+  height: 120rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav ul li {
+  width: 25%;
+  font-size: 14rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li img {
+  width: 70%;
+  margin-bottom: 5rem;
+}
+.banner {
+  width: 100%;
+  height: 240rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.banner img {
+  height: 240rem;
+  width: 100%;
+}
+.hothome {
+  height: 60rem;
+  width: 100%;
+  background-color: #ff8a00;
+  color: white;
+  font-weight: bold;
+}
+.hothome p:first-child {
+  font-size: 18rem;
+  margin-left: 20rem;
+  padding-top: 10rem;
+}
+.hothome p:last-child {
+  font-size: 12rem;
+  margin-left: 20rem;
+}
+.goods {
+  width: 100%;
+  background-color: white;
+  margin-bottom: 10rem;
+}
+.goods li {
+  width: 90%;
+  height: 140rem;
+  border-bottom: 1rem solid #ff0000;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.goods li .g-img {
+  width: 80rem;
+  height: 80rem;
+}
+.goods li .g-img img {
+  width: 80rem;
+  height: 80rem;
+}
+.goods li .g-show {
+  margin-left: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 120rem;
+}
+.goods li .g-show .g1 {
+  width: 200rem;
+  font-size: 20rem;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.goods li .g-show .g2 {
+  overflow: hidden;
+  color: black;
+  font-size: 12rem;
+}
+.goods li .g-show .g2 span {
+  float: right;
+  color: #ff8a00;
+  font-weight: bold;
+  margin-right: 10rem;
+}
+.goods li .g-show .g3 {
+  color: #8b8b8b;
+  overflow: hidden;
+  font-size: 12rem;
+}
+.goods li .g-show .g3 span {
+  float: right;
+  margin-right: 10rem;
+}
+.goods li .g-show .g4 {
+  color: #849aae;
+  margin-top: 5rem;
+  font-size: 12rem;
+}
+.goods li .g-show .g4 span {
+  padding: 5rem 3rem;
+  background-color: #f4f7f9;
+  display: inline-block;
+  margin-right: 5rem;
+}
+.goods li:last-child {
+  border: none;
+}
+.hot-look {
+  height: 190rem;
+  width: 100%;
+  background-color: white;
+}
+.hot-look .l-top {
+  border-bottom: 1px solid #ff8a00;
+  height: 50rem;
+  display: flex;
+}
+.hot-look .l-top p {
+  width: 50%;
+  font-size: 18rem;
+  color: #666666;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hot-look .l-top p:first-child {
+  color: #ff8a00;
+  border-bottom: 1px solid #ff8a00;
+}
+.hot-look .l-bottom {
+  width: 90%;
+  height: 140rem;
+  margin: 0 auto;
+  display: flex;
+}
+.hot-look .l-bottom li {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: #666666;
+  font-size: 12rem;
+  padding-left: 15rem;
+  box-sizing: border-box;
+}
+.ad {
+  height: 50rem;
+  width: 100%;
+  background: url(../image/index/close.png) no-repeat;
+  background-size: 15rem;
+  display: flex;
+  position: relative;
+  position: fixed;
+  bottom: 0;
+}
+.ad .ad1 {
+  color: #8b8885;
+  font-size: 12rem;
+  width: 15rem;
+  height: 15rem;
+  position: absolute;
+  left: 2rem;
+}
+.ad .ad2 {
+  width: 210rem;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ad .ad2 img {
+  width: 30rem;
+  height: 30rem;
+  margin-right: 10rem;
+}
+.ad .ad2 .nopro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: white;
+}
+.ad .ad2 .nopro p:first-child {
+  font-size: 18rem;
+}
+.ad .ad2 .nopro p:last-child {
+  font-size: 12rem;
+}
+.ad .ad3 {
+  background-color: #ff8a00;
+  width: 120rem;
+  color: white;
+  font-size: 18rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

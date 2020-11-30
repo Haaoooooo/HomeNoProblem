@@ -1,0 +1,338 @@
+.auto {
+  width: 100%;
+  height: 185rem;
+}
+.auto img {
+  width: 320rem;
+  height: 185rem;
+}
+.home-price {
+  height: 185rem;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-bottom: 1rem solid #e5e5e5;
+}
+.home-price p {
+  width: 88%;
+  margin: 0 auto;
+}
+.home-price .pr1 {
+  font-size: 18rem;
+  font-weight: bolder;
+}
+.home-price .pr2 {
+  font-size: 14rem;
+}
+.home-price .pr2 span {
+  color: #db4c3f;
+  font-weight: bolder;
+}
+.home-price .pr2 span:last-child {
+  float: right;
+}
+.home-price .pr2 img {
+  width: 13rem;
+  height: 19rem;
+}
+.home-price .pr3 {
+  font-size: 12rem;
+  color: #b0b0b7;
+}
+.home-price .pr4 {
+  overflow: hidden;
+}
+.home-price .pr4 span {
+  float: left;
+  padding: 8rem 5rem;
+  background-color: #dee9f0;
+  color: #849aae;
+  margin-right: 12rem;
+  font-size: 12rem;
+}
+article {
+  width: 100%;
+  background-color: white;
+  margin-top: 14rem;
+  margin-bottom: 10rem;
+  border-bottom: 1rem solid #e5e5e5;
+  border-top: 1rem solid #e5e5e5;
+}
+article ul {
+  width: 88%;
+  margin: 0 auto;
+}
+article ul li {
+  height: 50rem;
+  box-sizing: border-box;
+  border-bottom: 1rem solid #e5e5e5;
+  display: flex;
+  align-items: center;
+}
+article ul li p {
+  font-size: 12rem;
+  width: 50%;
+}
+article ul li:nth-child( n + 6 ) p {
+  width: 100%;
+}
+article ul li:last-child {
+  color: #999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: 12rem;
+}
+.feature {
+  border-bottom: 1rem solid #e5e5e5;
+  border-top: 1rem solid #e5e5e5;
+  background-color: white;
+  width: 100%;
+  margin-bottom: 10rem;
+}
+.feature .f-tit {
+  height: 55rem;
+  line-height: 55rem;
+  width: 88%;
+  margin: 0 auto;
+  font-weight: bolder;
+  font-size: 16rem;
+  color: #ff9326;
+  border-bottom: 1rem solid #e5e5e5;
+}
+.feature .f-content {
+  width: 88%;
+  margin: 0 auto;
+  border-bottom: 1rem solid #e5e5e5;
+  line-height: 20rem;
+  padding: 20rem 0rem;
+  font-size: 12rem;
+}
+.feature .f-more {
+  color: #999999;
+  font-size: 12rem;
+  height: 50rem;
+  line-height: 50rem;
+  text-align: center;
+  width: 88%;
+  margin: 0 auto;
+}
+.type {
+  border-bottom: 1rem solid #e5e5e5;
+  border-top: 1rem solid #e5e5e5;
+  background-color: white;
+  width: 100%;
+  margin-bottom: 10rem;
+}
+.type .t-tit {
+  height: 55rem;
+  line-height: 55rem;
+  width: 88%;
+  margin: 0 auto;
+  font-weight: bolder;
+  font-size: 16rem;
+  color: #ff9326;
+  border-bottom: 1rem solid #e5e5e5;
+}
+.type ul {
+  width: 88%;
+  margin: 0 auto;
+}
+.type ul li {
+  height: 120rem;
+  border-bottom: 1rem solid #ff9326;
+  display: flex;
+  align-items: center;
+}
+.type ul li img {
+  width: 71rem;
+  height: 71rem;
+  margin-right: 10rem;
+}
+.type ul li .t-text .t-p1 {
+  font-size: 14rem;
+  font-weight: bolder;
+  margin-bottom: 5rem;
+}
+.type ul li .t-text .t-p2 {
+  font-size: 12rem;
+  margin-bottom: 8rem;
+}
+.type ul li .t-text .t-p3 {
+  overflow: hidden;
+}
+.type ul li .t-text .t-p3 span {
+  float: left;
+  padding: 8rem 5rem;
+  background-color: #dee9f0;
+  color: #849aae;
+  margin-right: 12rem;
+  font-size: 12rem;
+}
+.type ul li:last-child {
+  border: none;
+}
+.school {
+  border-bottom: 1rem solid #e5e5e5;
+  border-top: 1rem solid #e5e5e5;
+  background-color: white;
+  width: 100%;
+  margin-bottom: 10rem;
+}
+.school li {
+  height: 50rem;
+  line-height: 50rem;
+  width: 88%;
+  margin: 0 auto;
+  border-bottom: 1rem solid #e5e5e5;
+  font-size: 12rem;
+}
+.school li span {
+  color: #999999;
+}
+.school li:first-child {
+  font-size: 18rem;
+  font-weight: bold;
+}
+.school li:last-child {
+  color: #999999;
+  border: none;
+  text-align: center;
+}
+.gps {
+  border-bottom: 1rem solid #e5e5e5;
+  border-top: 1rem solid #e5e5e5;
+  background-color: white;
+  width: 100%;
+  margin-bottom: 10rem;
+}
+.gps .g-tit {
+  font-size: 18rem;
+  font-weight: bolder;
+  height: 50rem;
+  line-height: 50rem;
+  width: 88%;
+  margin: 0 auto;
+  border-bottom: 1rem solid #e5e5e5;
+}
+.gps .map {
+  height: 200rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gps .map #container {
+  overflow: hidden;
+  width: 280rem;
+  height: 155rem;
+  margin: 0;
+  font-family: "微软雅黑";
+}
+.recommend {
+  border-top: 1rem solid #e5e5e5;
+  border-bottom: 1rem solid #e5e5e5;
+  background-color: white;
+  width: 100%;
+}
+.recommend .r-tit {
+  font-size: 18rem;
+  font-weight: bolder;
+  height: 50rem;
+  line-height: 50rem;
+  width: 88%;
+  margin: 0 auto;
+  border-bottom: 1rem solid #e5e5e5;
+}
+.recommend ul {
+  border-bottom: 1rem solid #e5e5e5;
+}
+.recommend .r-more {
+  height: 50rem;
+  line-height: 50rem;
+  font-size: 12rem;
+  text-align: center;
+  color: #999999;
+}
+.recommend li {
+  width: 88%;
+  height: 170rem;
+  border-bottom: 1rem solid #e5e5e5;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.recommend li .wrap {
+  display: flex;
+  align-items: center;
+}
+.recommend li .wrap .g-img {
+  width: 80rem;
+  height: 80rem;
+}
+.recommend li .wrap .g-img img {
+  width: 80rem;
+  height: 80rem;
+}
+.recommend li .wrap .g-show {
+  margin-left: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 120rem;
+}
+.recommend li .wrap .g-show .g1 {
+  width: 200rem;
+  font-size: 20rem;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.recommend li .wrap .g-show .g2 {
+  overflow: hidden;
+  color: black;
+  font-size: 12rem;
+}
+.recommend li .wrap .g-show .g2 span {
+  float: right;
+  color: #ff8a00;
+  font-weight: bold;
+  margin-right: 10rem;
+}
+.recommend li .wrap .g-show .g3 {
+  color: #8b8b8b;
+  overflow: hidden;
+  font-size: 12rem;
+}
+.recommend li .wrap .g-show .g3 span {
+  float: right;
+  margin-right: 10rem;
+}
+.recommend li .wrap .g-show .g4 {
+  color: #849aae;
+  margin-top: 5rem;
+  font-size: 12rem;
+}
+.recommend li .wrap .g-show .g4 span {
+  padding: 5rem 3rem;
+  background-color: #f4f7f9;
+  display: inline-block;
+  margin-right: 5rem;
+}
+.recommend li .because {
+  width: 295rem;
+  height: 35rem;
+  line-height: 35rem;
+  background-color: #f2f2f2;
+  font-size: 12rem;
+  padding-left: 10rem;
+  position: relative;
+  left: 7rem;
+}
+.recommend li:last-child {
+  border: none;
+}
